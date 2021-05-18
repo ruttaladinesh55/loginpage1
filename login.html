@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+   <link rel="stylesheet" type="text/css" href="main.css">
+
+  <script src="login.js"></script>
+ <!--  -->
+</head>
+
+<body>
+
+  <!-- <div class="container"> -->
+    <!--Formes-->
+    <div class="forms">
+      <!--Start Row-->
+      <div class="row">
+
+        <!--Start Sign Up Form-->
+        <div class="col-md-6 col-sm-12">
+          <div class="form-signup">
+            <span class="desc-form">Not a member</span>
+            <h2 class="title-form">Sign up&#33;</h2>
+            <!--Start Form-->
+            <form class="signup" action="" method="POST">
+
+              <div class="input-container">
+                <input onfocus="myFunction(this)" onfocusout="revert(this)" type="text" name="fullname" id="fullname"
+                  autocomplete="off" placeholder="Full Name" required="required" />
+                <label for="fullname">Full Name</label>
+              </div>
+
+              <div class="input-container">
+                <input onfocus="myFunction(this)" onfocusout="revert(this)" type="email" name="email2" id="emai2"
+                  placeholder="Email" />
+                <label for="emai2">Email</label>
+              </div>
+
+              <div class="input-container">
+                <input onfocus="myFunction(this)" onfocusout="revert(this)" type="password2" name="new-password"
+                  id="pass2" autocomplete="new-password" placeholder="Password" required="required" />
+                <label for="pass2">Password</label>
+              </div>
+
+              <input class="btn btn-block" name="signup" type="submit" value="Sign up" />
+            </form>
+            <!--end Form-->
+          </div>
+        </div>
+        <!--End Sign Up Form-->
+
+        <!--Start Login Form-->
+        <div class="col-md-6 col-sm-12">
+          <div class="form-login">
+
+            <span class="desc-form">I have account</span>
+            <h2 class="title-form">Log In&#33;</h2>
+            <!--Start Form-->
+            <form class="login" action="" method="POST">
+              <div class="input-container">
+                <input onfocus="myFunction(this)" onfocusout="revert(this)" type="email" name="email" id="emai"
+                  autocomplete="off" placeholder="Email" required="required" />
+                <label for="emai">Email</label>
+              </div>
+
+              <div class="input-container">
+                <input onfocus="myFunction(this)" onfocusout="revert(this)" type="password" name="password" id="pass"
+                  autocomplete="new-password" placeholder="Password" required="required" />
+                <label for="pass">Password</label>
+              </div>
+
+              <input class="btn btn-block" name="login" type="submit" value="Log in" />
+
+              <div class="footer-form">
+                <div class="pull-left">
+                  <input id="remember" type="checkbox" name="" />
+                  <label for="remember">Remember me</label>
+                </div>
+                <a class="pull-right" href="#">Forget Password&#63;</a>
+              </div>
+            </form>
+            <!--End Form-->
+          </div>
+        </div>
+        <!--End Login Form-->
+
+      </div>
+      <!--End Row-->
+    </div>
+    <!--End forms-->
+  <!-- </div> -->
+
+</body>
+
+</html>
